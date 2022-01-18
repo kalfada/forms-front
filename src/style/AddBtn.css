@@ -1,0 +1,22 @@
+.add-btn{
+    position: fixed;
+    color: black;
+    z-index: 1;
+    background-color: #fdbc2d;
+    align-self: center;
+    width: 70px;
+    height: 70px;
+    left: 60px;
+    bottom: 60px;
+    font-size: 40px;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 50%;
+}
+
+.add-btn:hover{
+    color: white;
+    font-size: 50px;
+    transition: 0.2s;
+}
