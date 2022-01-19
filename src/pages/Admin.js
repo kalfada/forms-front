@@ -7,9 +7,7 @@ export default function Admin() {
     return (
         <div>
             <NavBar />
-            <Link to={`/admin/poll/`}>
-                <AddBtn />
-            </Link>
+            <AddBtn />
         </div>
     )
 }
