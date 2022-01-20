@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { PopUpContext } from '../App'
-import '../style/AdminPoll.css'
+import '../style/CreatePoll.css'
 
 export default function CreatePoll() {
     const navigate = useNavigate()

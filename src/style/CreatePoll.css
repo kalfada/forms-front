@@ -1,0 +1,22 @@
+.admin-poll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    padding: 100px;
+    background-color: #7775e3;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 15px;
+    font-weight: 900;
+}
+
+.text-input{
+    display: block;
+    border-radius: 5px;
+}
+
+/* .form-btn{
+
+} */
