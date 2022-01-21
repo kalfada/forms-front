@@ -1,12 +1,12 @@
 import NavBar from "../components/NavBar"
 import AddBtn from "../components/AddBtn"
-import { Link } from "react-router-dom"
+import AllPolls from "../components/AllPolls"
 
 export default function Admin() {
-    const id = 5
     return (
         <div>
             <NavBar />
+            <AllPolls />
             <AddBtn />
         </div>
     )
