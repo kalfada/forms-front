@@ -1,4 +1,4 @@
-.add-btn{
+.btn{
     position: fixed;
     color: black;
     z-index: 1;
@@ -15,7 +15,7 @@
     border-radius: 50%;
 }
 
-.add-btn:hover{
+.btn:hover{
     color: white;
     font-size: 50px;
     transition: 0.2s;

@@ -1,4 +1,4 @@
-.admin-poll{
+.admin_poll{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,11 +12,11 @@ form{
     font-weight: 900;
 }
 
-.text-input{
+.text_input{
     display: block;
     border-radius: 5px;
 }
 
-/* .form-btn{
+/* .form_btn{
 
 } */

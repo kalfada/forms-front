@@ -2,7 +2,7 @@ import axios from 'axios'
 import { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { PopUpContext } from '../App'
-import '../style/CreatePoll.css'
+import style from '../style/CreatePoll.module.css'
 
 export default function CreatePoll() {
     const navigate = useNavigate()
@@ -22,13 +22,13 @@ export default function CreatePoll() {
     }
 
     return (
-        <div className="admin-poll">
+        <div className={style.admin_poll}>
             <form action="" onSubmit={addPoll}>
                 <div>כותרת</div>
-                <input className='text-input' type="text" name="title" />
+                <input className={style.text_input} type="text" name="title" />
                 <div >תיאור</div>
-                <input className='text-input' type="text" name="description" />
-                <input className='form-btn' type="submit" value="שלח" />
+                <input className={style.text_input} type="text" name="description" />
+                <input className={style.form_btn} type="submit" value="שלח" />
             </form>
         </div>
     )
